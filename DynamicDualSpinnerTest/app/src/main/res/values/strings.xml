@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DynamicDualSpinnerTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="cities">
+        <item>City 1</item>
+        <item>City 2</item>
+        <item>City 3</item>
+        <item>City 4</item>
+        <item>City 5</item>
+        <item>City 6</item>
+        <item>City 7</item>
+        <item>City 8</item>
+    </string-array>
+    <string-array name="cities2">
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+        <item>Han 1</item>
+        <item>Bar 2</item>
+        <item>City 3</item>
+    </string-array>
+</resources>
