@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dat.dynamicdualspinnertest">
+<manifest package="com.example.dat.dynamicdualspinnertest"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -18,8 +18,11 @@
         </activity>
         <activity
             android:name=".UsingConfigureChangesActivity"
+            android:configChanges="orientation|screenSize|mcc|mnc|keyboard|screenLayout" />
+        <activity
+            android:name=".WithoutConfigureChangesActivity"
             android:configChanges="orientation|screenSize" />
-        <activity android:name=".WithoutConfigureChangesActivity" />
+        <activity android:name=".UsingMosbyActivity" />
     </application>
 
 </manifest>
